@@ -46,7 +46,76 @@ $$P=\sqrt{\frac{(2\pi)^{2}a^{3}}{GM}}$$
  
   Where:
   
-  * P is the orbital period,
-  * a is the semi-major axis,
-  * G is the gravitational constant,
-  * M is the total mass of the binary system.
+  * $P$ is the orbital period,
+  * $a$ is the semi-major axis,
+  * $G$ is the gravitational constant,
+  * $M$ is the total mass of the binary system.
+
+* **Orbital Speed**: The speed of each star in its orbit is determined by its distance from the center of mass and the orbital period. The orbital speed is calculated using:
+
+$$v=\frac{2\pi R}{P}$$
+
+Where $R$ is the radius of the star’s orbit and $P$ is the orbital period.
+
+* **Brightness Calculation**: The total luminosity of a star is calculated using the **Stefan-Boltzmann law**:
+
+$$B=4\pi R^{2}\sigma T^{4}$$
+
+Where:
+
+* $B$ is the brightness,
+* $R$ is the radius of the star,
+* $σ$ is the Stefan-Boltzmann constant,
+* $T$ is the temperature of the star.
+
+Brightness variations are calculated for different phases of the eclipse (total, primary, and secondary).
+
+## Requirements
+* Python 3.x
+* `juliandate` library (Install using `pip install juliandate`)
+* `numpy` library (Install using `pip install numpy`)
+
+## Usage
+
+### 1. Running `date_calc.py`:
+
+This script allows you to input a date and calculates the next 10 predicted eclipses for the EZ Hya binary system. It will display the predicted dates and times (in UT1) of the next eclipses starting from the date you provide.
+
+Example:
+
+```bash
+$ python date_calc.py
+Enter observation date (DD-MM-YYYY):
+01-01-2025
+Next eclipse: 05-01-2025 02:34:21
+Next eclipse: 08-01-2025 02:34:21
+...
+```
+
+### 2. Running `orbital_calc.py`:
+This script computes the key orbital parameters and brightness of the stars in the EZ Hya system. It uses Kepler's third law, orbital speed calculations, and Stefan-Boltzmann's law to compute the system’s characteristics.
+
+Example:
+
+```bash
+$ python orbital_calc.py
+Semi-major axis: 2070.52 km
+Mass of the first star: 2.74e+30 kg
+Mass of the second star: 6.87e+29 kg
+Total mass of the system: 3.42e+30 kg
+Mass ratio: 0.25
+Orbital period: 0.45 days
+Orbital speed of the first star: 173.17 km/s
+Orbital speed of the second star: 511.77 km/s
+Total brightness outside eclipse: 1.23e+28 L
+Brightness during primary eclipse: 4.56e+27 L
+Brightness during secondary eclipse: 1.23e+28 L
+```
+
+## Contributing
+
+Feel free to fork this project, report issues, or submit pull requests with improvements or fixes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
