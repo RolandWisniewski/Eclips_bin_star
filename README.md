@@ -8,6 +8,8 @@ The code is split into two main scripts:
 
 ## ⭐ Binary Star System Overview
 
+![HYAEZ](https://github.com/user-attachments/assets/1e6d73e0-fa01-41fc-bdd3-caf012437c04)
+
 The EZ Hya system is a binary star system, meaning it consists of two stars orbiting around a common center of mass. The stars in this system are typical examples of contact eclipsing binaries, where the orbital plane is aligned in such a way that the stars periodically eclipse each other. This results in noticeable periodic dips in brightness that can be used to derive key parameters of the system, such as the **orbital period**, **orbital velocity**, and **luminosity**.
 
 The periodic dimming caused by these eclipses is the key feature that makes studying these systems so useful. By observing the light curves (graphs of brightness over time) of such systems, astronomers can infer the sizes, masses, and distances of the stars, as well as the geometry of their orbits.
