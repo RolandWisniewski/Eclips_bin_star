@@ -14,7 +14,7 @@ The periodic dimming caused by these eclipses is the key feature that makes stud
 
 ## Files
 
-### `date_calc.py`
+###`date_calc.py`
 
 This script calculates the dates of the next eclipses in the EZ Hya system based on the initial eclipse date and the orbital period. The script takes the observation date from the user and returns the next 10 predicted eclipses after that date.
 
@@ -24,7 +24,7 @@ This script calculates the dates of the next eclipses in the EZ Hya system based
 * `calc_next_eclipse(p, m0)`: Calculates the Julian Date (JD) of the next eclipse based on the orbital period (`p`) and the initial eclipse date (`m0`).
 * `main()`: Main function that calls the necessary functions to get the observation date and display the next 10 predicted eclipses.
 
-`orbital_calc.py`
+###`orbital_calc.py`
 
 This script computes various orbital parameters for the EZ Hya system using Kepler's third law and other formulas. It calculates the system's **semi-major axis**, **masses** of the stars, **orbital period**, **orbital speeds**, and **brightness** of the stars during the eclipses.
 
@@ -42,7 +42,7 @@ This script computes various orbital parameters for the EZ Hya system using Kepl
 The calculations in the code rely on fundamental principles of orbital mechanics and stellar astrophysics:
 * **Kepler's Third Law**: This law relates the orbital period of a binary system to the semi-major axis of the orbit and the total mass of the system. It’s used to calculate the orbital period (P) of the stars in the system.
 
-$$\left( 𝑃=$`\sqrt{(2𝜋)^2𝑎^3/𝐺𝑀`$ \right)$$
+P=\sqrt{\frac{(2\pi)^{2}a^{3}}{GM}}
  
   Where:
   
