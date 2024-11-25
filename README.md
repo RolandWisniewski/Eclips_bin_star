@@ -51,13 +51,13 @@ $$P=\sqrt{\frac{(2\pi)^{2}a^{3}}{GM}}$$
   * $G$ is the gravitational constant,
   * $M$ is the total mass of the binary system.
 
-* **Orbital Speed**: The speed of each star in its orbit is determined by its distance from the center of mass and the orbital period. The orbital speed is calculated using:
+- **Orbital Speed**: The speed of each star in its orbit is determined by its distance from the center of mass and the orbital period. The orbital speed is calculated using:
 
 $$v=\frac{2\pi R}{P}$$
 
 Where $R$ is the radius of the star’s orbit and $P$ is the orbital period.
 
-* **Brightness Calculation**: The total luminosity of a star is calculated using the **Stefan-Boltzmann law**:
+- **Brightness Calculation**: The total luminosity of a star is calculated using the **Stefan-Boltzmann law**:
 
 $$B=4\pi R^{2}\sigma T^{4}$$
 
@@ -116,6 +116,10 @@ Brightness during secondary eclipse: 1.23e+28 L
 
 Feel free to fork this project, report issues, or submit pull requests with improvements or fixes.
 
+## Author
+
+* Created by [RolandWisniewski](https://github.com/RolandWisniewski)
+
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
