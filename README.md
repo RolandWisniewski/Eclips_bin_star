@@ -1,4 +1,4 @@
-# Analysis of EZ Hydrae Binary System
+# 🌟 Analysis of EZ Hydrae Binary System
 
 This project analyzes the EZ Hydrae (EZ Hya) binary star system, which is a contact eclipsing binary system. A contact eclipsing binary consists of two stars orbiting each other in such a way that one star partially obscures the other during their orbit, causing periodic dips in observed brightness. This type of variability in brightness is what makes these stars so interesting to astronomers, as it allows for detailed studies of their masses, sizes, and other physical parameters. The analysis here focuses on calculating the **orbital period**, **orbital velocities**, and **brightness variations** during eclipses.
 
@@ -6,13 +6,13 @@ The code is split into two main scripts:
 1. `date_calc.py`: Calculates and predicts the next eclipses for the system based on a given observation date.
 2. `orbital_calc.py`: Computes the orbital parameters of the system, including the semi-major axis, masses of the stars, orbital speeds, and brightness.
 
-## Binary Star System Overview
+## ⭐ Binary Star System Overview
 
 The EZ Hya system is a binary star system, meaning it consists of two stars orbiting around a common center of mass. The stars in this system are typical examples of contact eclipsing binaries, where the orbital plane is aligned in such a way that the stars periodically eclipse each other. This results in noticeable periodic dips in brightness that can be used to derive key parameters of the system, such as the **orbital period**, **orbital velocity**, and **luminosity**.
 
 The periodic dimming caused by these eclipses is the key feature that makes studying these systems so useful. By observing the light curves (graphs of brightness over time) of such systems, astronomers can infer the sizes, masses, and distances of the stars, as well as the geometry of their orbits.
 
-## Files
+## 📂 Files
 
 ### `date_calc.py`
 
@@ -70,12 +70,12 @@ Where:
 
 Brightness variations are calculated for different phases of the eclipse (total, primary, and secondary).
 
-## Requirements
+## 📋 Requirements
 * Python 3.x
 * `juliandate` library (Install using `pip install juliandate`)
 * `numpy` library (Install using `pip install numpy`)
 
-## Usage
+## 🚀 Usage
 
 ### 1. Running `date_calc.py`:
 
@@ -112,14 +112,14 @@ Brightness during primary eclipse: 4.56e+27 L
 Brightness during secondary eclipse: 1.23e+28 L
 ```
 
-## Contributing
+## 🤝 Contributing
 
 Feel free to fork this project, report issues, or submit pull requests with improvements or fixes.
 
-## Author
+## 👤 Author
 
 * Created by [RolandWisniewski](https://github.com/RolandWisniewski)
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
